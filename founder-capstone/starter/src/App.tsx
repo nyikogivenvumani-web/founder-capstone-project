@@ -15,7 +15,7 @@ import { useState } from "react";
 import { ITEMS } from "./data/items.ts";
 import type { Category } from "./data/types.ts";
 import { ItemCard } from "./components/ItemCard.tsx";
-import { FilterBar } from "./components/fliteBar.tsx";
+import { FilterBar } from "./components/filterBar.tsx";
 import { ItemDetail } from "./components/itemDetail.tsx";
 import { getFilteredItems, PriceFilterType } from "./utils/filterHelpers.ts";
 

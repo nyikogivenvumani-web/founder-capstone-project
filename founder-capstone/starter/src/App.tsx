@@ -14,10 +14,10 @@
 import { useState } from "react";
 import { ITEMS } from "./data/items.ts";
 import type { Category } from "./data/types.ts";
-import { ItemCard } from "./components/ItemCard.tsx";
-import { FilterBar } from "./components/filterBar.tsx";
+import { ItemCard } from "./components/itemcart.tsx";
+import { FilterBar } from "./components/FilterBar.tsx";
 import { ItemDetail } from "./components/itemDetail.tsx";
-import { getFilteredItems, PriceFilterType } from "./utils/filterHelpers.ts";
+import { getFilteredItems, PriceFilterType } from "./utile/filterHelper.ts";
 
 type ViewMode = "browse" | "detail" | "booking";
 
